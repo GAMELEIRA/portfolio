@@ -47,3 +47,65 @@ body {
 .item-link:hover {
     text-decoration: underline solid #ffffff 2px;
 }
+
+#technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-technologies {
+    background: #ffffff;
+    border: solid 0.2px transparent;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.card-technologies:hover {
+    background: #fcf0f0;
+    border: solid 0.2px #868686;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+    width: 116px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-medias-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#copyright{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+}
