@@ -43,7 +43,7 @@
 <section id="access-project">
   <h2>Acesso ao Projeto</h2>
   <p>Você pode acessar o <a href="https://gameleira.github.io/portfolio/">Portfólio</a> pela web.</p>
-  <p>Você pode acessar o <a href="https://github.com/GAMELEIRA/portfolio"></a>projeto pelo Git Hub</p>                                                   
+  <p>Você pode acessar o <a href="https://github.com/GAMELEIRA/portfolio">projeto</a> pelo Git Hub</p>                                                   
 </section>
 <section id="tecnologies">
   <h2>Tecnologias utilizadas</h2>
