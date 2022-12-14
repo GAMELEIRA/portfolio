@@ -35,12 +35,15 @@
 </section>
 <section id="status-project">
   <h2>Status do Projeto</h2>
+  :construction: Projeto em construção 🏗️
 </section>
 <section id="functionalities">
   <h2>Funcionalidades e Demonstração da Aplicação</h2>
 </section>
 <section id="access-project">
   <h2>Acesso ao Projeto</h2>
+  <p>Você pode acessar o <a href="https://gameleira.github.io/portfolio/">Portfólio</a> pela web.</p>
+  <p>Você pode acessar o <a href="https://github.com/GAMELEIRA/portfolio"></a>projeto pelo Git Hub</p>                                                   
 </section>
 <section id="tecnologies">
   <h2>Tecnologias utilizadas</h2>
