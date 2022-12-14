@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .title {
@@ -8,11 +8,14 @@ body {
 }
 
 .title-primary {
-    font-size: 56px;
+    font-size: 48px;
+    margin: 0px 8px 8px 8px;
+    color: #ffffff;
 }
 
 .title-secondary {
     font-size: 32px;
+    color: #ffffff;
 }
 
 .title-third {
