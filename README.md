@@ -1,3 +1,10 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/GAMELEIRA/portfolio)
+![Lines of code](https://img.shields.io/tokei/lines/github/GAMELEIRA/portfolio)
+![GitHub contributors](https://img.shields.io/github/contributors/GAMELEIRA/portfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/GAMELEIRA/portfolio)
+![GitHub forks](https://img.shields.io/github/forks/GAMELEIRA/portfolio?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/GAMELEIRA/portfolio?style=social)
+
 <a href="https://gameleira.github.io/portfolio/" target="_blank">
   <div align="center">
     <img src="https://user-images.githubusercontent.com/42386775/207675122-00279b3d-e87a-4f9c-b459-5364a9fde501.svg">
