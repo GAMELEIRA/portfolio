@@ -113,7 +113,7 @@
 .projects {
     border: solid 0.3px transparent;
     border-radius: 4px;
-    background-color: #00000085;
+    background-color: #000000;
     padding: 8px;
     margin: 8px;
     display: flex;
@@ -123,13 +123,18 @@
 }
 
 .projects:hover {
-    border: solid 0.3px #868686;
+    border: solid 0.3px #0000001d;
     border-radius: 4px;
-    background-color: #0000000e;
+    background-color: #ffffff;
     padding: 8px;
     margin: 8px;
     cursor: pointer;
 }
+
+.projects:hover > .label {
+color: #000000;
+}
+
 
 #social-medias {
     display: flex;
