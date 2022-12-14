@@ -37,3 +37,7 @@ body {
     align-content: center;
     align-items: center;
 }
+
+#link-duo{
+    text-decoration: underline solid #000000 2px;
+}
