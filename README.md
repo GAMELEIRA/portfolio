@@ -26,9 +26,6 @@
     <li>
       <a href="#project-developers">Desenvolvedores do Projeto</a>
     </li>
-    <li>
-      <a href="#license">Licença</a>
-    </li>
   </ul>
 </nav>
 <section id="description-project">
@@ -62,7 +59,4 @@
       <figcaption>Gabriel Gameleira</figcaption>                                                                                                         
      </figure>
    </a>
-</section>
-<section id="license">
-  <h2>Licença</h2>
 </section>
