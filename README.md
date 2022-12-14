@@ -39,6 +39,28 @@
 </section>
 <section id="functionalities">
   <h2>Funcionalidades e Demonstração da Aplicação</h2>
+  <p>O portifólio é possui as seguintes seções: <p>
+  <ul>
+    <li>
+      <b>Sobre Mim</b>
+    </li>
+    <li>
+      <b>Tecnologias</b>
+     </li>
+    <li>
+      <b>Projetos Academicos</b>
+    </li>
+    <li>
+      <b>Projetos Profissionais</b>
+     </li>
+    <li>
+      <b>Lazeres</b>
+     </li>
+    <li>
+      <b>Redes Sociais</b>
+     </li>
+  </ul>
+  <img whidth="500px" src="https://user-images.githubusercontent.com/42386775/207712755-e2bc5e1e-8fe3-4309-b7e6-d7ef2ff75761.gif">
 </section>
 <section id="access-project">
   <h2>Acesso ao Projeto</h2>
