@@ -1,22 +1,4 @@
-body {
-    font-family: 'Inter', sans-serif;
-}
-
 #main-title {
-    font-size: 48px;
-    margin: 8px;
-    padding: 8px;
-}
-
-.second-title {
-    font-size: 24px;
-    margin: 8px;
-    padding: 8px;
-}
-
-.third-title {
-    font-size: 16px;
-    font-weight: bold;
     margin: 8px;
     padding: 8px;
 }
@@ -107,24 +89,18 @@ body {
 }
 
 #star-wars {
-    width: 238px;
-    height: 452px;
-    background-image: url('/images/ash.svg');
-    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 #rick-morty {
-    width: 335px;
-    height: 286px;
-    background-image: url('/images/rick-morty.svg');
-    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 #pokemon {
-    width: 225px;
-    height: 315px;
-    background-image: url('/images/psyduck.svg');
-    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
 }
 
 .projects {
@@ -133,6 +109,10 @@ body {
     background-color: #5c5c5c0e;
     padding: 8px;
     margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .projects:hover {
@@ -164,7 +144,6 @@ footer {
     background: #000000;
     bottom: 0;
     left: 0;
-    position: fixed;
     width: 100%;
 }
 

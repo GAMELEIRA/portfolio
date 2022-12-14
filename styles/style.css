@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    margin: 8px;
+    padding: 8px;
+}
+
+.title-primary {
+    font-size: 56px;
+}
+
+.title-secondary {
+    font-size: 32px;
+}
+
+.title-third {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.paragraph {
+    margin: 8px;
+    padding: 8px;
+}
+
+.container {
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
