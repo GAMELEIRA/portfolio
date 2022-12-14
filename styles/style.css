@@ -38,6 +38,12 @@ body {
     align-items: center;
 }
 
+.label {
+    margin: 8px;
+    padding: 8px;
+    font-weight: bold;
+}
+
 #link-duo{
     text-decoration: underline solid #000000 2px;
 }
