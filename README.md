@@ -4,30 +4,55 @@
 <header align="center">
   <h1 align="center"> Portfólio </h1>
 </header>
-<section>
+<nav>
+  <ul>
+    <li>
+      <a href="#description-project"">Descrição do Projeto</a>
+    </li>
+    <li>
+      <a href="#status-project">Status do Projeto</a>
+    </li>
+    <li>
+      <a href="#functionalities">Funcionalidades e Demonstração da Aplicação</a>
+    </li>
+    <li>
+      <a href="#access-project">Acesso ao Projeto</a>
+    </li>
+    <li>
+      <a href="#tecnologies">Tecnologias utilizadas</a>
+    </li>
+    <li>
+      <a href="#contributors">Contribuintes</a>
+    </li>
+    <li>
+      <a href="#project-developers">Desenvolvedores do Projeto</a>
+    </li>
+    <li>
+      <a href="#license">Licença</a>
+    </li>
+  </ul>
+</nav>
+<section id="description-project">
   <h2>Descrição do Projeto</h2>
 </section>
-<section>
+<section id="status-project">
   <h2>Status do Projeto</h2>
 </section>
-<section>
+<section id="functionalities">
   <h2>Funcionalidades e Demonstração da Aplicação</h2>
 </section>
-<section>
-  <h2>Funcionalidades e Demonstração da Aplicação</h2>
-</section>
-<section>
+<section id="access-project">
   <h2>Acesso ao Projeto</h2>
 </section>
-<section>
+<section id="tecnologies">
   <h2>Tecnologias utilizadas</h2>
 </section>
-<section>
+<section id="contributors">
   <h2>Pessoas Contribuidoras</h2>
 </section>
-<section>
+<section id="project-developers">
   <h2>Pessoas Desenvolvedoras do Projeto</h2>
 </section>
-<section>
+<section id="license">
   <h2>Licença</h2>
 </section>
