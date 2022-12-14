@@ -34,6 +34,8 @@
 </nav>
 <section id="description-project">
   <h2>Descrição do Projeto</h2>
+  <p>Este projeto têm como objetivo ser o primeiro cartão de visita para que você me conheça profissionalmente. 
+  Aqui você verá um pouco sobre mim, as tecnologias que utilizo, meus principais projetos públicos academicos e profissionais, e um pouco sobre o que eu faço no tempo livre.</p>
 </section>
 <section id="status-project">
   <h2>Status do Projeto</h2>
