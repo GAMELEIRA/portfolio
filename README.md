@@ -50,10 +50,10 @@
   <h2>Tecnologias utilizadas</h2>
 </section>
 <section id="contributors">
-  <h2>Pessoas Contribuidoras</h2>
+  <h2>Contribuintes</h2>
 </section>
 <section id="project-developers">
-  <h2>Pessoas Desenvolvedoras do Projeto</h2>
+  <h2>Desenvolvedoras do Projeto</h2>
 </section>
 <section id="license">
   <h2>Licença</h2>
