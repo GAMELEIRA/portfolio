@@ -1,6 +1,8 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/42386775/207675122-00279b3d-e87a-4f9c-b459-5364a9fde501.svg"/>
-</div>
+<a href="https://gameleira.github.io/portfolio/" target="_blank">
+  <div align="center">
+    <img src="https://user-images.githubusercontent.com/42386775/207675122-00279b3d-e87a-4f9c-b459-5364a9fde501.svg"/>
+  </div>
+</a>
 <header align="center">
   <h1 align="center"> Portfólio </h1>
 </header>
