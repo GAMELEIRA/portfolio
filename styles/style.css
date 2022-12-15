@@ -1,48 +1,6 @@
-body {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-.title {
-    margin: 8px;
-    padding: 8px;
-}
-
-.title-primary {
-    font-size: 48px;
-    margin: 0px 8px 8px 8px;
-    color: #ffffff;
-}
-
-.title-secondary {
-    font-size: 32px;
-    color: #ffffff;
-}
-
-.title-third {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.paragraph {
-    font-size: 20px;
-    margin: 8px;
-    padding: 8px;
-}
-
 .container {
-    margin: 8px;
     padding: 8px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.label {
-    margin: 8px;
-    padding: 8px;
-    font-weight: bold;
-    color: white;
+    display: block;
 }
 
 #link-duo{

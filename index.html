@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/typography.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" href="images/logo-negro.svg">
@@ -40,145 +41,166 @@
             </li>
         </ul>
     </nav>
-    <div id="welcome">
-        <header id="main-header">
-            <h1 class="title title-primary">Desenvolvedor ideal para a sua equipe</h1>
-            <h2 class="title title-secondary">
-                Conheça Gabriel Gameleira, desenvolvedor de software mobile para criar as melhores
-                soluções para a sua empresa ou negócio
-            </h2>
-        </header>
-    </div>
     <main>
-        <section id="about-me">
-            <h3 class="title title-third">Sobre Mim</h3>
-            <p class="paragraph">Olá! Como vai?</p>
-            <p class="paragraph">Me chamo Gabriel Gameleira, tenho 23 anos e sou formado em Análise e Desenvolvimento de
-                sistemas pela Bandtec.</p>
-            <p class="paragraph"> Atualmente atuo como Desenvolvedor Pleno de Software Mobile na TOTVS. Minhas
-                habilidades
-                como desenvolvedor estão sendo aprimoradas com o decorrer das sprints em que crio ou dou manutenção em
-                telas dos aplicativos
-                TOTVS. Nas horas vagas procuro aprimorar minhas habilidades com essas tecnologias e também dedico certo
-                tempo para aprimorar meu
-                conhecimento em Node, Figma, UI e UX.</p>
-            <p class="paragraph">Recentemente voltei a treinar o meu inglês, acessa o meu perfil no
-                <a id="link-duo" target="_blank"
-                    href="https://www.duolingo.com/profile/GabrielGameleira?via=share_profile">Duolingo</a>, para
-                acompanhar o meu progresso.
-            </p>
+        <section id="welcome" class="container">
+            <header id="main-header">
+                <h1 class="headline headline-1 color-text-white">
+                    Desenvolvedor ideal para a sua equipe
+                </h1>
+                <h5 class="headline headline-5 color-text-white">
+                    Conheça Gabriel Gameleira, desenvolvedor de software mobile para criar as melhores
+                    soluções para a sua empresa ou negócio
+                </h5>
+            </header>
         </section>
-        <section id="technologies">
-            <h3 class="title title-third">Tecnologias</h3>
-            <p class="paragraph">A seguir estão as tecnologias que eu domino. Se você desejar, ao clicar sobre a
-                tecnologia escolhida você será redirecionado para um repositório que corresponde ao projetos que eu
-                desenvolvi para estudar a linguagem ou framework.</p>
-            <div class="card-technologies">
-                <img src="images/technologies/html.svg" alt="Logo do HTML">
+        <section id="about-me" class="container">
+            <div>
+                <h3 class="headline headline-3 color-text-black">Sobre Mim</h3>
             </div>
-            <div class="card-technologies">
-                <img src="images/technologies/css.svg" alt="Logo do CSS">
-            </div>
-            <div class="card-technologies">
-                <img src="images/technologies/javascript.svg" alt="Logo do Javascript">
-            </div>
-            <div class="card-technologies">
-                <img src="images/technologies/typescript.svg" alt="Logo do Javascript">
-            </div>
-            <div class="card-technologies">
-                <img src="images/technologies/angular.svg" alt="Logo do Angular">
-            </div>
-            <div class="card-technologies">
-                <img src="images/technologies/node.svg" alt="Logo do Node">
-            </div>
-            <div class="card-technologies">
-                <img src="images/technologies/ionic.svg" alt="Logo do Node">
+            <div>
+                <p class=" body body-1 color-text-black">Me chamo Gabriel Gameleira, tenho 23 anos e sou formado em Análise e Desenvolvimento de sistemas pela Bandtec.
+               Atualmente atuo como Desenvolvedor Pleno de Software Mobile na TOTVS. 
+               Minhas habilidades como desenvolvedor estão sendo aprimoradas com o decorrer das sprints em que crio ou dou manutenção em telas dos aplicativos TOTVS. 
+               Nas horas vagas procuro aprimorar minhas habilidades com essas tecnologias e também dedico certo tempo para aprimorar meu conhecimento em Node, Figma, UI e UX.</p>
+                <p class="body body-1 color-text-black">Recentemente voltei a treinar o meu inglês, acessa o meu perfil no
+                    <a id="link-duo" target="_blank"
+                        href="https://www.duolingo.com/profile/GabrielGameleira?via=share_profile">Duolingo</a>, para
+                    acompanhar o meu progresso.
+                </p>
             </div>
         </section>
-        <section id="academic-projects">
-            <h3 class="title title-third">Projetos Academicos</h3>
-            <p class="paragraph">Segue alguns projetos academicos desenvolvidos utilizando Angular, consumindo API's
-                públicas.</p>
-            <a href="https://github.com/GAMELEIRA/star-wars-frontend">
-                <div id="star-wars" class="projects">
-                    <p class="label">Start Wars</p>
+        <section id="technologies" class="container">
+            <div>
+                <h3 class="headline headline-3 color-text-black">Tecnologias</h3>
+                <p class="body body-1 color-text-black">A seguir estão as tecnologias que eu domino. Se você desejar, ao clicar sobre a
+                    tecnologia escolhida você será redirecionado para um repositório que corresponde ao projetos que eu
+                    desenvolvi para estudar a linguagem ou framework.</p>
+            </div>
+            <div>
+                <div class="card-technologies">
+                    <img src="images/technologies/html.svg" alt="Logo do HTML">
                 </div>
-            </a>
-            <a href="https://github.com/GAMELEIRA/rick-and-morty-frontend">
-                <div id="rick-morty" class="projects">
-                    <p class="label">Projeto Rick And Morty</p>
+                <div class="card-technologies">
+                    <img src="images/technologies/css.svg" alt="Logo do CSS">
                 </div>
-            </a>
-            <a href="https://github.com/GAMELEIRA/pokemon-frontend">
-                <div id="pokemon" class="projects">
-                    <p class="label">Projeto Pokemon</p>
+                <div class="card-technologies">
+                    <img src="images/technologies/javascript.svg" alt="Logo do Javascript">
                 </div>
-            </a>
+                <div class="card-technologies">
+                    <img src="images/technologies/typescript.svg" alt="Logo do Javascript">
+                </div>
+                <div class="card-technologies">
+                    <img src="images/technologies/angular.svg" alt="Logo do Angular">
+                </div>
+                <div class="card-technologies">
+                    <img src="images/technologies/node.svg" alt="Logo do Node">
+                </div>
+                <div class="card-technologies">
+                    <img src="images/technologies/ionic.svg" alt="Logo do Node">
+                </div>
+            </div>
+        </section>
+        <section id="academic-projects" class="container">
+            <div>
+                <h3 class="headline headline-3 color-text-black">Projetos Academicos</h3>
+                <p class="body body-1 color-text-black">Segue alguns projetos academicos desenvolvidos utilizando Angular, consumindo API's
+                    públicas.</p>
+            </div>
+            <div>
+                <a href="https://github.com/GAMELEIRA/star-wars-frontend">
+                    <div id="star-wars" class="projects">
+                        <p class="label">Start Wars</p>
+                    </div>
+                </a>
+                <a href="https://github.com/GAMELEIRA/rick-and-morty-frontend">
+                    <div id="rick-morty" class="projects">
+                        <p class="label">Projeto Rick And Morty</p>
+                    </div>
+                </a>
+                <a href="https://github.com/GAMELEIRA/pokemon-frontend">
+                    <div id="pokemon" class="projects">
+                        <p class="label">Projeto Pokemon</p>
+                    </div>
+                </a>
+            </div>
         </section>
         <section id="professional-projects" class="container">
-            <h3 class="title title-third">Projetos Profissionais</h3>
             <div>
-                <p class="paragraph">Sem projetos profissionais no momento.</p>
+                <h3 class="headline headline-3 color-text-black">Projetos Profissionais</h3>
+                <p class="body body-1 color-text-black">Aqui estão os projetos profissionais com maior destaque desenvolvido por minha autoria ou com participação.</p>
+            </div>
+            <div>
+                <p class="body body-1 color-text-black">Sem projetos profissionais no momento.</p>
             </div>
         </section>
         <section id="hobbie" class="container">
-            <h3 class="title title-third">Lazeres</h3>
-            <p class="paragraph">Em agosto de 2021, comecei a praticar o meu atual esporte, o tenis de mesa. De lá pra
-                treinei cerca de 6 meses e parei... voltei a treinar no mês de novembro de 2022 para os torneios de
-                2023.
-            </p>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/RdntPQRVlDs">
-            </iframe>
+            <div>
+                <h3 class="headline headline-3 color-text-black">Lazeres</h3>
+                <p class="body body-1 color-text-black">Em agosto de 2021, comecei a praticar o meu atual esporte, o tenis de mesa. De lá
+                    pra
+                    treinei cerca de 6 meses e parei... voltei a treinar no mês de novembro de 2022 para os torneios de
+                    2023.
+                </p>
+            </div>
+            <div>
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/RdntPQRVlDs">
+                </iframe>
+            </div>
         </section>
-        <section id="social-medias">
-            <h3 class="title title-third ">Redes Sociais</h3>
-            <figure>
-                <a class="social-medias-link"
-                    href="https://www.linkedin.com/in/gabriel-gameleira-dos-santos-634b23161/">
-                    <figure>
-                        <img src="images/icons/linkedin.svg" alt="Icone do Linkedin">
-                        <figcaption>Linkedin</figcaption>
-                    </figure>
-                </a>
-            </figure>
-            <figure>
-                <a class="social-medias-link" href="mailto:gameleira270499@gmail.com">
-                    <figure>
-                        <img src="images/icons/gmail.svg" alt="Icone do Gmail">
-                        <figcaption>Gmail</figcaption>
-                    </figure>
-                </a>
-            </figure>
-            <figure>
-                <a class="social-medias-link" href="https://github.com/GAMELEIRA">
-                    <figure>
-                        <img src="images/icons/git-hub.svg" alt="Icone do Git Hub">
-                        <figcaption>Git Hub</figcaption>
-                    </figure>
-                </a>
-            </figure>
-            <figure>
-                <a class="social-medias-link"
-                    href="https://wa.me/5511951432568?text=Olá,%20Gabriel!%20Gostaria%20de%20contratar%20seus%20serviços%20como%20desenvolvedor!">
-                    <figure>
-                        <img src="images/icons/whatsapp.svg" alt="Icone do Whatsapp">
-                        <figcaption>Whatsapp</figcaption>
-                    </figure>
-                </a>
-            </figure>
-            <figure>
-                <a class="social-medias-link" href="https://www.instagram.com/gamisgamis27/">
-                    <figure>
-                        <img src="images/icons/instagram.svg" alt="Icone do Instagram">
-                        <figcaption>Instagram</figcaption>
-                    </figure>
-                </a>
-            </figure>
+        <section id="social-medias" class="container">
+            <div>
+                <h3 class="headline headline-3 color-text-black">Redes Sociais</h3>
+                <p class="body body-1">Para saber mais, negociar algum projeto, entre em contato comigo por alguma das redes socias a seguir:</p>
+            </div>
+            <div>
+                <figure>
+                    <a class="social-medias-link"
+                        href="https://www.linkedin.com/in/gabriel-gameleira-dos-santos-634b23161/">
+                        <figure>
+                            <img src="images/icons/linkedin.svg" alt="Icone do Linkedin">
+                            <figcaption>Linkedin</figcaption>
+                        </figure>
+                    </a>
+                </figure>
+                <figure>
+                    <a class="social-medias-link" href="mailto:gameleira270499@gmail.com">
+                        <figure>
+                            <img src="images/icons/gmail.svg" alt="Icone do Gmail">
+                            <figcaption>Gmail</figcaption>
+                        </figure>
+                    </a>
+                </figure>
+                <figure>
+                    <a class="social-medias-link" href="https://github.com/GAMELEIRA">
+                        <figure>
+                            <img src="images/icons/git-hub.svg" alt="Icone do Git Hub">
+                            <figcaption>Git Hub</figcaption>
+                        </figure>
+                    </a>
+                </figure>
+                <figure>
+                    <a class="social-medias-link"
+                        href="https://wa.me/5511951432568?text=Olá,%20Gabriel!%20Gostaria%20de%20contratar%20seus%20serviços%20como%20desenvolvedor!">
+                        <figure>
+                            <img src="images/icons/whatsapp.svg" alt="Icone do Whatsapp">
+                            <figcaption>Whatsapp</figcaption>
+                        </figure>
+                    </a>
+                </figure>
+                <figure>
+                    <a class="social-medias-link" href="https://www.instagram.com/gamisgamis27/">
+                        <figure>
+                            <img src="images/icons/instagram.svg" alt="Icone do Instagram">
+                            <figcaption>Instagram</figcaption>
+                        </figure>
+                    </a>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
         <p id="copyright">
-            <b>©Copyright 2023 by Gameleira. Todos os direitos reservados.</b>
+            <b class="body body-2 color-text-white">©Copyright 2023 by Gameleira. Todos os direitos reservados.</b>
         </p>
     </footer>
 </body>

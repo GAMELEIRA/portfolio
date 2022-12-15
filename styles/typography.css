@@ -1,0 +1,133 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.headline {
+    margin: 8px;
+    padding: 8px;
+}
+
+.headline-1 {
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 131px;
+}
+
+.headline-2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 82px;
+}
+
+.headline-3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.headline-4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+.headline-5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.headline-6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.subtitle {
+    margin: 8px;
+    padding: 8px;
+}
+
+.subtitle-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.subtitle-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.body {
+    margin: 8px;
+    padding: 8px;
+}
+
+.body-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.body-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 8px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.overline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.label {
+    margin: 8px;
+    padding: 8px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px;
+}
+
+.color-text-black {
+    color: #000000;
+}
+
+.color-text-white {
+    color: #ffffff;
+}
