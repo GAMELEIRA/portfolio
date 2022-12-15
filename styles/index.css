@@ -58,6 +58,10 @@
 }
 
 #technologies {
+    display: block;
+}
+
+.container-technologies {
     display: flex;
     justify-content: center;
     align-items: center;
