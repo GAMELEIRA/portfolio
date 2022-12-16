@@ -4,6 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/GAMELEIRA/portfolio)
 ![GitHub forks](https://img.shields.io/github/forks/GAMELEIRA/portfolio?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/GAMELEIRA/portfolio?style=social)
+![](https://visitor-badge.glitch.me/badge?page_id=GAMELEIRA)
 
 <a href="https://gameleira.github.io/portfolio/" target="_blank">
   <div align="center">
