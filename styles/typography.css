@@ -96,6 +96,7 @@ body {
     margin: 8px;
     padding: 8px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .caption {
