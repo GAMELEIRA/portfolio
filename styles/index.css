@@ -100,14 +100,6 @@
 }
 
 .card-project {
-    background: #ffffff;
-    border: solid 0.2px transparent;
-    border-radius: 4px;
-    padding: 8px;
-    margin: 8px;
-}
-
-.card-project {
     border: solid 0.3px transparent;
     border-radius: 4px;
     background-color: #000000;
