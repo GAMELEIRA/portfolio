@@ -82,6 +82,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 #academic-projects {
@@ -116,6 +117,7 @@
     margin: 8px;
     color: #ffffff;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .card-project:hover > a > div > p {
