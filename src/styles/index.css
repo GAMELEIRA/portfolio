@@ -1,0 +1,203 @@
+#nav-top {
+  background: #000000;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.nav-item {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 8px;
+}
+
+.nav-item:hover {
+  font-size: 14px;
+}
+
+.item-link {
+  text-decoration: none;
+}
+
+.item-link:hover {
+  text-decoration: underline solid #ffffff 2px;
+}
+
+#welcome {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("../assets/images/background-welcome.png") lightgray top / cover
+      no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 768px;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-container {
+  width: 50%;
+  height: auto;
+  margin: 8px;
+}
+
+#logo-img {
+  width: 20%;
+}
+
+#technologies {
+  display: block;
+}
+
+.container-technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-technologies {
+  background: #ffffff;
+  border: solid 0.2px transparent;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.card-technologies:hover {
+  background: #0000000e;
+  border: solid 0.2px #868686;
+  border-radius: 4px;
+  width: 116px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#academic-projects {
+  display: block;
+}
+
+.container-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project {
+  border: solid 0.3px transparent;
+  border-radius: 4px;
+  background-color: #000000;
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-project:hover {
+  border: solid 0.3px #0000001d;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 8px;
+  margin: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card-project:hover > a > div > p {
+  color: #000000;
+}
+
+#hobbies {
+  display: block;
+}
+
+.container-hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-medias {
+  display: block;
+}
+
+.social-medias-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  padding: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: #000000;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+#copyright {
+}
+
+.button-primary {
+  width: 30%;
+  height: 32px;
+  margin: 8px;
+  padding: 8px;
+  background-color: #000;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-primary:hover {
+  width: 31%;
+  height: 36px;
+}
+
+.button-label {
+  color: #fff;
+}
