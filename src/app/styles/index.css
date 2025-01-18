@@ -110,6 +110,9 @@
   align-items: center;
 }
 
+.card {
+}
+
 .card-experiences {
   max-width: 100%;
   max-height: auto;
@@ -133,8 +136,26 @@
   transition-duration: 0.5s;
 }
 
+.enterprise {
+  width: 20%;
+  height: auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 8px;
+}
+
+#enterprise-totvs {
+  background: url("../../assets/images/enterprises/totvs.png") top / cover
+    no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1 / 1;
+}
+
 #time-line {
-  background-color: #000; 
+  background-color: #000;
   width: 8px;
   height: auto;
 }
@@ -148,11 +169,8 @@
 }
 
 .card-technologies:hover {
-  background: #0000000e;
-  border: solid 0.2px #868686;
+  border: solid 0.2px #87857d;
   border-radius: 4px;
-  width: 116px;
-  height: 116px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,9 +183,8 @@
 }
 
 .container-projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .card-project {
@@ -177,7 +194,7 @@
   padding: 8px;
   margin: 8px;
   cursor: pointer;
-  width: 300px;
+  max-width: 100%;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -192,7 +209,7 @@
   transition-duration: 0.5s;
 }
 
-.card-project:hover > div > p {
+.card-project:hover > div > h5 {
   color: #000000;
 }
 
@@ -208,6 +225,7 @@
 
 #social-medias {
   display: block;
+  background-color: #000;
 }
 
 .social-medias-link {
@@ -221,6 +239,12 @@
 }
 
 .container-social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list-enterprises {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,4 +295,8 @@ footer {
   display: flex;
   align-items: center;
   justify-items: center;
+}
+
+.label {
+  color: #fff;
 }
