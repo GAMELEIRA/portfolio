@@ -76,6 +76,20 @@
   height: 100%;
 }
 
+#card-about-me {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#banner-about-me {
+  background: url("../../assets/images/about-me.png") top / cover no-repeat;
+  display: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
 #logo-container {
   width: 50%;
   height: auto;
