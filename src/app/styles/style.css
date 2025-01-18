@@ -7,3 +7,7 @@
 #link-duo {
     text-decoration: underline solid #000000 2px;
 }
+
+img {
+    padding: 4px;
+}
