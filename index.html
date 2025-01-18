@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./src/styles/reset.css" />
-  <link rel="stylesheet" href="./src/styles/typography.css" />
-  <link rel="stylesheet" href="./src/styles/style.css" />
-  <link rel="stylesheet" href="./src/styles/index.css" />
+  <link rel="stylesheet" href="./src/app/styles/reset.css" />
+  <link rel="stylesheet" href="./src/app/styles/typography.css" />
+  <link rel="stylesheet" href="./src/app/styles/style.css" />
+  <link rel="stylesheet" href="./src/app/styles/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="icon" type="image/png" href="./src/assets/images/logo-negro.svg" />
@@ -37,9 +37,6 @@
         <a href="#professional-projects" class="button color-text-white item-link">Projetos Profissionais</a>
       </li>
       <li class="nav-item">
-        <a href="#hobbies" class="button color-text-white item-link">Lazeres</a>
-      </li>
-      <li class="nav-item">
         <a href="#social-medias" class="button color-text-white item-link">Redes Sociais</a>
       </li>
     </ul>
@@ -65,7 +62,7 @@
       <div>
         <h3 class="headline headline-3 color-text-black">Sobre Mim</h3>
       </div>
-      <div>
+      <div class="card-experiences">
         <p class="body body-1 color-text-black">
           Olá! Como vai?
         </p>
@@ -75,18 +72,12 @@
           <i>Bandtec</i>. Desde 2017, estou imerso no mundo da tecnologia, e desdes 2020 com foco no desenvolvimento de software
           <strong><i>Mobile</i></strong> e <strong><i>Web</i></strong>. Trabalhei por quase 6 anos na <i><strong>TOTVS</strong></i>, onde desenvolvi
           minha trajetória como desenvolvedor.
-        </p>
-        <p class="body body-1 color-text-black">
           Tenho expertise em <strong>Frontend</strong>, <strong>UI/UX</strong>, <strong>Mobile</strong> e
           <strong>Web</strong>, sempre em busca de aprimorar meus conhecimentos em <strong>DevOps</strong>,
           <strong>POO</strong>, <strong>Código Limpo</strong>, <strong>Testes Unitários</strong>, <strong>Arquitetura
             Hexagonal</strong> e <strong>DDD</strong>.
-        </p>
-        <p class="body body-1 color-text-black">
           Além de ser desenvolvedor, também gosto de jogar Tênis de Mesa, Minecraft, FIFA, Clash Royale, Smash Bros e Fortnite. Ah, e sou
           Corinthiano! 
-        </p>
-        <p class="body body-1 color-text-black">
           Atualmente, sou Desenvolvedor de Software Mobile e Web Pleno/Senior, sempre em busca de novos desafios e
           aprendizados.
         </p>
@@ -98,43 +89,50 @@
       </div>
       <div>
         <div>
-          <div></div>
-          <p class="body body-1 color-text-black">
-            Como
-            Desenvolvedor Pleno de Software Mobile, desde julho de 2022, assumi
-            desafios significativos na TOTVS, liderando a reestruturação dos
-            aplicativos <strong>Meu <i>Protheus</i></strong> e
-            <strong>Meu Coletor de Dados</strong>. Implementei uma organização
-            modular, com foco em escalabilidade e manutenção, e aprofundei meu
-            conhecimento em cultura DevOps, realizando deploys com Docker e
-            migrando para o registry da TOTVS. Integrei ferramentas como
-            SonarQube, otimizei a cobertura de testes unitários e refinei minhas
-            habilidades em code reviews.
-          </p>
-        </div>
-        <div>
-          <p class="body body-1 color-text-black">
-            Antes disso, como Desenvolvedor Júnior
-            de Software Mobile, participei do desenvolvimento do Assistente de
-            Configuração Mobile, aplicando arquiteturas escaláveis em Angular e
-            promovendo código modular. Já como Técnico de Desenvolvimento de
-            Software Mobile, entre 2020 e 2021, comecei minha jornada mobile e
-            Frontend com Angular e Ionic, contribuindo para melhorias na
-            usabilidade e automação de processos via pipelines. Foi nesse
-            período que tive o primeiro contato com Scrum e equipes ágeis,
-            experiência que consolidou minha habilidade em sprints e organização
-            de tarefas.
-          </p>
-        </div>
-        <div>
-          <p class="body body-1 color-text-black">
-            Outra fase importante da minha jornada na TOTVS foi o
-            periodo do estágio entre 2019 e 2020 em que no periodo da faculdade
-            desenvolvi um projeto para pequenos e médios produtores rurais.
-            Acredito que com essa bagagem posso ser uma peça importante no
-            crescimento de novos produtos e soluções, trazendo a minha
-            experiência e vontade de me desenvolver.
-          </p>
+          <div>
+            <div class="card-experiences">
+              <h6 class="headline headline-6 color-text-black">2024 - 2022</h6>
+              <p class="body body-1 color-text-black">
+                Como
+                Desenvolvedor Pleno de Software Mobile, desde julho de 2022, assumi
+                desafios significativos na TOTVS, liderando a reestruturação dos
+                aplicativos <strong>Meu <i>Protheus</i></strong> e
+                <strong>Meu Coletor de Dados</strong>. Implementei uma organização
+                modular, com foco em escalabilidade e manutenção, e aprofundei meu
+                conhecimento em cultura DevOps, realizando deploys com Docker e
+                migrando para o registry da TOTVS. Integrei ferramentas como
+                SonarQube, otimizei a cobertura de testes unitários e refinei minhas
+                habilidades em code reviews.
+              </p>
+            </div>
+            <div class="card-experiences">
+              <h6 class="headline headline-6 color-text-black">2022 - 2020</h6>
+              <p class="body body-1 color-text-black">
+                Como Desenvolvedor Júnior
+                de Software Mobile, participei do desenvolvimento do Assistente de
+                Configuração Mobile, aplicando arquiteturas escaláveis em Angular e
+                promovendo código modular. Já como Técnico de Desenvolvimento de
+                Software Mobile, entre 2020 e 2021, comecei minha jornada mobile e
+                Frontend com Angular e Ionic, contribuindo para melhorias na
+                usabilidade e automação de processos via pipelines. Foi nesse
+                período que tive o primeiro contato com Scrum e equipes ágeis,
+                experiência que consolidou minha habilidade em sprints e organização
+                de tarefas.
+              </p>
+            </div>
+            <div class="card-experiences">
+              <h6 class="headline headline-6 color-text-black">2020 - 2019</h6>
+
+              <p class="body body-1 color-text-black">
+                Outra fase importante da minha jornada na TOTVS foi o
+                periodo do estágio entre 2019 e 2020 em que no periodo da faculdade
+                desenvolvi um projeto para pequenos e médios produtores rurais.
+                Acredito que com essa bagagem posso ser uma peça importante no
+                crescimento de novos produtos e soluções, trazendo a minha
+                experiência e vontade de me desenvolver.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -254,24 +252,6 @@
         </div>
       </div>
     </section>
-    <section id="hobbies" class="container">
-      <div>
-        <h3 class="headline headline-3 color-text-black">Lazeres</h3>
-        <p class="body body-1 color-text-black">
-          Em agosto de 2021, comecei a praticar o meu atual esporte, o tenis
-          de mesa. De lá pra treinei cerca de 6 meses e parei... voltei a
-          treinar no mês de novembro de 2022 para os torneios de 2023.
-        </p>
-      </div>
-      <div>
-        <div class="container-hobbies">
-          <div>
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/RdntPQRVlDs">
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </section>
     <section id="social-medias" class="container">
       <div>
         <div class="container-social-medias">
@@ -336,6 +316,8 @@
       <b>©Copyright 2025 by Gameleira. Todos os direitos reservados.</b>
     </p>
   </footer>
+  <script src="./src/app/scripts/index.js"></script>
+
 </body>
 
 </html>
