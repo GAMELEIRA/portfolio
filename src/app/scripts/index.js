@@ -13,7 +13,6 @@ document.querySelectorAll('.card-experiences').forEach(card => {
   observer.observe(card);
 });
 
-
 async function loadProjects() {
   const repos = [
     "GAMELEIRA/studies-backend",
@@ -34,23 +33,27 @@ async function loadProjects() {
     console.log(data)
 
     const card = document.createElement("div");
-    card.className = 'card-project';
+    card.className = 'card card-project';
     card.innerHTML = `
     <div id="card-project-image" class="center-content">
-      <img class="project-avatar" src="${data.owner?.avatar_url}" alt="Avatar do GitHub">
+      <img class="project-avatar" src="${data.owner?.avatar_url}" alt="Foto do Perfil GAMELEIRA">
     </div>
     <div id="card-project-content" class="center-content">
       <div>
         <h2 class="headline headline-5 color-text-black card-project-title">${data.name}</h2>
         <a href="${data.html_url}" target="_blank">
           <p class="body body-1 color-text-black">${data.description}</p>
-          <p class="body body-1 color-text-black"><strong>Stars:</strong> ${data.stargazers_count} | <strong>Forks:</strong> ${data.forks_count}</p>       
+          <p class="body body-1 color-text-black card-label"><strong>Stars:</strong> ${data.stargazers_count} | <strong>Forks:</strong> ${data.forks_count}</p>       
         </a>
       </div>
     </div>
     </div>
     `;
     container.appendChild(card);
+    document.querySelectorAll('.card-project').forEach(card => {
+      observer.observe(card);
+    });
+    
   }
 }
 

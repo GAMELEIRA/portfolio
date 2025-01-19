@@ -111,19 +111,21 @@ html {
 }
 
 .card {
-}
-
-.card-experiences {
   max-width: 100%;
   max-height: auto;
   border: 1px solid transparent;
   border-radius: 8px;
   margin: 16px;
   padding: 16px;
-  opacity: 0;
   transform: translateY(20px);
+  opacity: 0;
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-experiences {
+
+
 }
 
 .card-visible {
@@ -196,7 +198,7 @@ html {
   margin: 8px;
   cursor: pointer;
   width: 100%;
-  height: 200px;
+  height: auto;
   display: grid;
   grid-template-columns: 20% 80%;
   gap: 8px;
@@ -220,6 +222,10 @@ html {
 
 .card-project:hover .project-avatar{
   border: 1px solid #fff;
+}
+
+.card-label {
+  font-weight: 900;
 }
 
 #hobbies {
