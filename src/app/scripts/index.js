@@ -32,29 +32,28 @@ async function loadProjects() {
 
     console.log(data)
 
-    const card = document.createElement("div");
+    const card = document.createElement("a");
+    card.href = data.html_url;
+    card.target = "_blank";
     card.className = 'card card-project';
     card.innerHTML = `
-    <a href="${data.html_url}" target="_blank">
-      <div id="card-project-image" class="center-content">
-        <img class="project-avatar" src="${data.owner?.avatar_url}" alt="Foto do Perfil GAMELEIRA">
+    <div id="card-project-image" class="center-content">
+      <img class="project-avatar" src="${data.owner?.avatar_url}" alt="Foto do Perfil GAMELEIRA">
+    </div>
+    <div id="card-project-content" class="center-content">
+      <div>
+        <h2 class="headline headline-5 color-text-black card-project-title">${data.name}</h2>
+          <p class="body body-1 color-text-black">${data.description}</p>
+          <p class="body body-1 color-text-black card-label"><strong>&#9733; Stars:</strong> ${data.stargazers_count} <strong>&#8916; Forks:</strong> ${data.forks_count}</p>       
       </div>
-      <div id="card-project-content" class="center-content">
-        <div>
-          <h2 class="headline headline-5 color-text-black card-project-title">${data.name}</h2>
-          <div>
-            <p class="body body-1 color-text-black">${data.description}</p>
-            <p class="body body-1 color-text-black card-label"><strong>&#9733; Stars:</strong> ${data.stargazers_count} <strong>&#8916; Forks:</strong> ${data.forks_count}</p>       
-          </div>
-        </div>
-      </div>
-    </a>
+    </div>
+    </div>
     `;
     container.appendChild(card);
     document.querySelectorAll('.card-project').forEach(card => {
       observer.observe(card);
     });
-
+    
   }
 }
 
